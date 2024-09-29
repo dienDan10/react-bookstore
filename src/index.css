@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-menu-item-selected {
+  background-color: #e0e7ff !important;
+  color: #1e3a8a !important;
+}
+
+.ant-menu-item:hover {
+  background-color: #e0e7ff !important;
+  color: #1e3a8a !important;
+}
+
+.ant-menu-submenu-open > .ant-menu-submenu-title {
+  background-color: #f3f4f6 !important;
+}
+
+.ant-menu-submenu-selected > .ant-menu-submenu-title {
+  background-color: #e0e7ff !important;
+  color: #1e3a8a !important;
+}
